@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Dashboard</title>
+</head>
+
+<body>
+  <div class="dashboard">
+    <aside class="dashboard__sidebar">
+      <div class="dashboard__sidebar__content">
+        <a href="#" class="dashboard__sidebar__content__logo">
+          <img src="./assets/logo.svg" alt="logo" width="37" height="37" class="dashboard__sidebar__content__logo__img">
+          <span class="dashboard__sidebar__content__logo__text">Dashboard</span>
+          <span class="dashboard__sidebar__content__logo__version">v.01</span>
+        </a>
+        <div class="dashboard__sidebar__content__menu">
+          <ul class="dashboard__sidebar__content__menu__list">
+            <li class="dashboard__sidebar__content__menu__list__item">
+              <a href="#" class="dashboard__sidebar__content__menu__list__item__link">
+                <span class="icon icon--key"></span>
+                <span class="dashboard__sidebar__content__menu__list__item__link__text">Dashboard</span>
+              </a>
+            </li>
+            <li class="dashboard__sidebar__content__menu__list__item dashboard__sidebar__content__menu__list__item--dropdown active">
+              <a href="#" class="dashboard__sidebar__content__menu__list__item__link">
+                <span class="icon icon--3d"></span>
+                <span class="dashboard__sidebar__content__menu__list__item__link__text">Product</span>
+                </a>
+            </li>
+            <li class="dashboard__sidebar__content__menu__list__item dashboard__sidebar__content__menu__list__item--dropdown">
+              <a href="#" class="dashboard__sidebar__content__menu__list__item__link dashboard__sidebar__content__menu__list__item__link active">
+                <span class="icon icon--user"></span>
+                <span class="dashboard__sidebar__content__menu__list__item__link__text">Customers</span>
+                </a>
+            </li>
+            <li class="dashboard__sidebar__content__menu__list__item dashboard__sidebar__content__menu__list__item--dropdown">
+              <a href="#" class="dashboard__sidebar__content__menu__list__item__link">
+                <span class="icon icon--wallet"></span>
+                <span class="dashboard__sidebar__content__menu__list__item__link__text">Income</span>
+                </a>
+            <li class="dashboard__sidebar__content__menu__list__item dashboard__sidebar__content__menu__list__item--dropdown">
+              <a href="#" class="dashboard__sidebar__content__menu__list__item__link">
+                <span class="icon icon--discount"></span>
+                <span class="dashboard__sidebar__content__menu__list__item__link__text">Promote</span>
+                </a>
+            </li>
+            <li class="dashboard__sidebar__content__menu__list__item dashboard__sidebar__content__menu__list__item--dropdown">
+              <a href="#" class="dashboard__sidebar__content__menu__list__item__link">
+                <span class="icon icon--message"></span>
+                <span class="dashboard__sidebar__content__menu__list__item__link__text">Help</span>
+                </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a href="#" class="dashboard__sidebar__account">
+        <img src="./assets/avatar.png" alt="avatar" width="42" height="42" class="dashboard__sidebar__account__img">
+        <div class="dashboard__sidebar__account__details">
+          <h3 class="dashboard__sidebar__account__details__name">Evano</h3>
+          <span class="dashboard__sidebar__account__details__role">
+            Project Manager
+          </span>
+        </div>
+      </a>
+    </aside>
+    <div class="dashboard__main">
+      <div class="dashboard__main__header">
+        <h1 class="dashboard__main__header__title">Hello Evano 👋🏼,</h1>
+      </div>
+      <div class="dashboard__main__content">
+        <div class="dashboard__main__content__customers">
+          <div class="dashboard__main__content__customers__header">
+            <div class="dashboard__main__content_customers__header__info">
+              <h2 class="dashboard__main__content__customers__header__info__title">All Customers</h2>
+              <h3 class="dashboard__main__content__customers__header__info__subtitle">All Customers</h3>
+            </div>
+            <div class="dashboard__main__content_customers__header__search">
+              <span class="icon icon--search"></span>
+              <input type="text" class="dashboard__main__content__customers__header__search__input"
+                placeholder="Search">
+            </div>
+          </div>
+          <div class="dashboard__main__content__customers__content">
+            <table class="dashboard__main__content__customers__content__table">
+              <thead class="dashboard__main__content__customers__content__table__header">
+                <tr class="dashboard__main__content__customers__content__table__header__row">
+                  <th class="dashboard__main__content__customers__content__table__header__row__item">Customer Name</th>
+                  <th class="dashboard__main__content__customers__content__table__header__row__item">Company</th>
+                  <th class="dashboard__main__content__customers__content__table__header__row__item">Phone Number</th>
+                  <th class="dashboard__main__content__customers__content__table__header__row__item">Email</th>
+                  <th class="dashboard__main__content__customers__content__table__header__row__item">Country</th>
+                  <th class="dashboard__main__content__customers__content__table__header__row__item">Status</th>
+                </tr>
+              </thead>
+              <tbody class="dashboard__main__content__customers__content__table__body">
+                <tr class="dashboard__main__content__customers__content__table__body__row">
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Jane Cooper</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Microsoft</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">(225) 555-0118</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">jane@microsoft.com</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">United States</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">
+                    <span class="badge badge--active">Active</span>
+                  </td>
+                </tr>
+                <tr class="dashboard__main__content__customers__content__table__body__row">
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Floyd Miles</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Yahoo</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">(205) 555-0100</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">floyd@yahoo.com</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Kiribati</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">
+                    <span class="badge badge--inactive">Inactive</span>
+                  </td>
+                </tr>
+                <tr class="dashboard__main__content__customers__content__table__body__row">
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Ronald Richards</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Adobe</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">(302) 555-0107</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">ronald@adobe.com</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Israel</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">
+                    <span class="badge badge--inactive">Inactive</span>
+                  </td>
+                </tr>
+                <tr class="dashboard__main__content__customers__content__table__body__row">
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Marvin McKinney</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Tesla</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">(252) 555-0126</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">marvin@tesla.com</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Iran</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">
+                    <span class="badge badge--active">Active</span>
+                  </td>
+                </tr>
+                <tr class="dashboard__main__content__customers__content__table__body__row">
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Jerome Bell</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Google</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">(629) 555-0129</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">jerome@google.com</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Réunion</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">
+                    <span class="badge badge--active">Active</span>
+                  </td>
+                </tr>
+                <tr class="dashboard__main__content__customers__content__table__body__row">
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Kathryn Murphy</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Microsoft</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">(406) 555-0120</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">kathryn@microsoft.com</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Curaçao</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">
+                    <span class="badge badge--active">Active</span>
+                  </td>
+                </tr>
+                <tr class="dashboard__main__content__customers__content__table__body__row">
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Jacob Jones</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Yahoo</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">(208) 555-0112</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">jacob@yahoo.com</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Brazil</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">
+                    <span class="badge badge--active">Active</span>
+                  </td>
+                </tr>
+                <tr class="dashboard__main__content__customers__content__table__body__row">
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Kristin Watson</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Facebook</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">(704) 555-0127</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">kristin@facebook.com</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">Åland Islands</td>
+                  <td class="dashboard__main__content__customers__content__table__body__row__item">
+                    <span class="badge badge--inactive">Inactive</span>
+                  </td>
+                </tr>
+            </table>
+          </div>
+          <div class="dashboard__main__content__customers__footer">
+            <p class="dashboard__main__content__customers__footer__info">Showing data 1 to 8 of 256K entries</p>
+            <div class="pagination">
+              <a href="#" class="pagination__item pagination__item__prev">&lt;</a>
+              <a href="#" class="pagination__item pagination__item__page active">1</a>
+              <a href="#" class="pagination__item pagination__item__page">2</a>
+              <a href="#" class="pagination__item pagination__item__page">3</a>
+              <a href="#" class="pagination__item pagination__item__page">4</a>
+              <span>...</span>
+              <a href="#" class="pagination__item pagination__item__page">40</a>
+              <a href="#" class="pagination__item pagination__item__next">&gt;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
